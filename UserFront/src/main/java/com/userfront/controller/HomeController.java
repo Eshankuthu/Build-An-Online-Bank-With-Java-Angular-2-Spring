@@ -73,8 +73,8 @@ public class HomeController {
 		PrimaryAccount primaryAccount = user.getPrimaryAccount();
 		SavingsAccount savingsAccount = user.getSavingsAccount();
 		
-		model.addAttribute("primaryaccount", primaryAccount);
-		model.addAttribute("savingsaccount", savingsAccount);
+		model.addAttribute("primaryAccount", primaryAccount);
+		model.addAttribute("savingsAccount", savingsAccount);
 		
 		return "userFront";
 	}
